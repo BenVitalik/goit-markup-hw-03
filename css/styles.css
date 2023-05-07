@@ -59,14 +59,19 @@ button{
 }
 .btn-filtr{
     font-family: "Roboto", sans-serif;
+    padding: 12px 24px;
+    border-radius: 4px;
+    border: 1px solid #e7e9fc;
     color: #4D5AE5;
     background: #F4F4FD;
 }
 .btn-filtr:hover{
+border: 1px solid transparent;
 color: #FFFFFF;
 background:var(--accent-color);
 }
 .btn-filtr:focus{
+    border: 1px solid transparent;
     color: #FFFFFF;
         background:var(--accent-color);
 }
@@ -296,4 +301,24 @@ margin-bottom: 8px;
 .white-text{
     max-width: 264px;
     color: #F4F4FD;
+}
+/* PORTFOLIO */
+
+/* MAIN */
+
+
+.filter-btn{
+padding: 96px 0 120px;
+}
+.btn-list{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 72px
+}
+.project-portfolio{
+display: flex;
+flex-wrap: wrap;
+column-gap: 24px;
+row-gap: 48px;
 }
