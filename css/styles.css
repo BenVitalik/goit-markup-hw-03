@@ -76,6 +76,13 @@ background:var(--accent-color);
     color: #FFFFFF;
         background:var(--accent-color);
 }
+
+.modal-btm:hover{
+    background:var(--accent-color);
+}
+.modal-btm:focus{
+    background:var(--accent-color);
+}
 .modal-btm{
     font-family: "Roboto", sans-serif;
     color: #FFFFFF;
@@ -83,12 +90,6 @@ background:var(--accent-color);
     display: block;
     height: 56px;
     border: none;
-}
-.modal-btm:hover{
-    background:var(--accent-color);
-}
-.modal-btm:focus{
-    background:var(--accent-color);
 }
 /* header */
 
