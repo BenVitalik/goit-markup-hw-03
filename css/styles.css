@@ -243,16 +243,13 @@ gap: 24px;
     flex-basis: calc((100% - 3 * 24px) / 4);
 
 }
-.competencies-box{
-padding-top: 120px;
-padding-bottom: 120px;
-}
+
 /* skills */
 .skils-box{
     padding-bottom: 120px;
 }
 .skils-list{
-    width: calc((100% - 48px) / 3);
+    flex-basis: calc((100% - 48px) / 3);
 }
 .big-titel{
     font-weight: 700;
