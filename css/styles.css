@@ -239,7 +239,18 @@ padding: 120px 0;
 display: flex;
 gap: 24px;
 }
-
+.paragraph-comp{
+font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    width: 264px;
+        height: 72px;
+}
 
 .competencies-bloc{
     flex-basis: calc((100% - 3 * 24px) / 4);
