@@ -113,6 +113,7 @@ background:var(--accent-color);
     letter-spacing: 0.02em;
 }
 .menu-link{
+    padding: 24px 0;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -172,6 +173,7 @@ gap: 40px
 
 .address-contact{
 display: flex;
+gap: 40px;
 }
 .email-distans{
     margin-right: 40px;
@@ -221,7 +223,7 @@ header{
         color: #434455;
 }
 .competencies{
-gap: 24px;
+padding: 120px 0;
 }
 .competencies-list{
 display: flex;
@@ -232,7 +234,7 @@ gap: 24px;
     margin-bottom: 8px;
 }
 .competencies-bloc{
-    width: calc(100% - 72px)
+    width: calc(100% - 72px);
 
 }
 .competencies-box{
@@ -244,7 +246,7 @@ padding-bottom: 120px;
     padding-bottom: 120px;
 }
 .skils-list{
-    width: calc(100% - 48px)
+    width: calc(100% - 48px);
 }
 .big-titel{
     font-weight: 700;
@@ -265,7 +267,7 @@ padding-bottom: 120px;
 .people-img{
     display: flex;
     gap: 24px;
-    width: calc(100% - 72px)
+    width: calc(100% - 72px);
 }
 .people-list{
 border-radius: 0px 0px 4px 4px;
@@ -286,7 +288,10 @@ margin-bottom: 8px;
     padding: 100px 0;
     background: #2E2F42;
 }
-
+.link-footer{
+    display: inline-block;
+    margin-bottom: 16px;
+}
 
 .white-text{
     max-width: 264px;
