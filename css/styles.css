@@ -240,7 +240,7 @@ gap: 24px;
 
 
 .competencies-bloc{
-    width: calc((100% - 72px) / 4);
+    flex-basis: calc((100% - 3 * 24px) / 4);
 
 }
 .competencies-box{
@@ -273,10 +273,11 @@ padding-bottom: 120px;
 .people-img{
     display: flex;
     gap: 24px;
-    width: calc((100% - 72px) / 4);
+    
 }
 .people-list{
 border-radius: 0px 0px 4px 4px;
+width: calc((100% - 48px) / 3);
 background: #FFFFFF;
 }
 .name-prof{
