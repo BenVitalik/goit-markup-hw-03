@@ -54,7 +54,6 @@ button{
         align-items: center;
         text-align: center;
         letter-spacing: 0.04em;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
         border-radius: 4px;
        
 }
@@ -90,6 +89,7 @@ background:var(--accent-color);
     display: block;
     height: 56px;
     border: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 15);
     margin-left: auto;
     margin-right: auto;
 }
@@ -218,7 +218,6 @@ header{
         font-size: 20px;
         line-height: 1.2;
         letter-spacing: 0.02em;
-        text-align: center;
         margin-bottom: 8px;
         color: #2E2F42;
 }
@@ -227,7 +226,7 @@ header{
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        text-align: center;
+        
         order: 1;
         flex-grow: 0;
         color: #434455;
@@ -285,6 +284,7 @@ font-weight: 400;
     
 }
 .people-list{
+    text-align: center;
 border-radius: 0px 0px 4px 4px;
 width: calc((100% - 48px) / 3);
 background: #FFFFFF;
@@ -294,6 +294,7 @@ background: #FFFFFF;
     padding-bottom: 32px;
     padding-left: 16px;
     padding-right: 16px
+    
 }
 .title-teame{
 margin-bottom: 8px;
@@ -333,6 +334,7 @@ flex-wrap: wrap;
 column-gap: 24px;
 row-gap: 48px;
 }
+
 .list-item-portfolio{
     width: calc((100% - 48px) / 3);
 }
