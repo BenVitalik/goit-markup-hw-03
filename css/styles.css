@@ -47,7 +47,6 @@ button{
 }
 .open-btn{
         padding:15px 30px ;
-        min-width: 169px;
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
@@ -175,9 +174,6 @@ gap: 40px
     margin-right: 76px;
 }
 
-.menu-item:not(:last-child){
-    margin-right: 40px;
-}
 
 .address-contact{
 display: flex;
