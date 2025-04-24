@@ -7,19 +7,18 @@
     <link rel="stylesheet" href="./css/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@700&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" />
+
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css" integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./styles.css"/>
   </head>
   <body>
     <!--Верхній Худ-->
     <header class="main-header">
-      <nav>
+      <div class="main-conteiner">
+      <nav class="navigation">
         <p class="logo-web-main"><span class="logo-web">WEB</span>STUDIO</p>
-        <ul>
+        <ul class="list-main-navigation">
           <li class="text-studio">Studio</li>
           <li class="text-portfolio">
           <a href="#Portfolio">Portfolio</li></a>
@@ -27,16 +26,24 @@
           <a href="#Contacts">Contacts</li></a>
         </ul>
       </nav>
-      <address id="Contacts"class="text-address">Email info@devstudio.com</address>
+      <div class="contacts">
+      <address id="Contacts"class="text-address">info@devstudio.com</address>
       <address class="text-address-telephone">
-        Telephone +11 (000) 111-11-11
-      </address>
+        +11 (000) 111-11-11
+      </address> 
+      </div>
+      </div>
     </header>
+    <!--Кінець худу-->
+    <!--Основна сторінка-->
     <main>
-      <!--Основна сторінка-->
+      <div class="conteiner-main-hud">
       <h1 class="main-text-wb">Effective Solutions for Your Business</h1>
       <button class="main-button-wb" type="button">Order Service</button>
-      <ul>
+      </div>
+      
+
+      <ul class="list-description">
         <li>
           <h2 class="text-strategy">Strategy</h2>
           <p class="main-text-strategy">
@@ -67,8 +74,9 @@
         </li>
       </ul>
       <!--Зображення/критерії працівників-->
+      <div class="foto">
       <h2 class="main-text-team">Our Team</h2>
-      <ul>
+      <ul class="list-Our-Team">
         <li>
           <img
             src="./Images/mark-guerrero.jpg"
@@ -110,9 +118,12 @@
           <p class="description-daniel-wilson">UI Designer</p>
         </li>
       </ul>
+      </div>
+      <!-- Our Portfolio -->
       <h2 id="Portfolio" class="main-text-portfolio">Our Portfolio</h2>
-      <ul>
-        <li>
+      <div class="conteiner">
+      <ul class="list-Our-Portfolio">
+        <li class="Banking-App">
           <img
             src="./Images/img.jpg"
             alt="Banking App images"
@@ -173,12 +184,14 @@
           <p class="text-marketing">Marketing</p>
         </li>
       </ul>
+      </div>
     </main>
     <!--Нижній худ сторінки-->
     <footer>
-      <ul>
+      <ul class="conteiner-footer">
         <li>
-          <p class="logo-web-main"><span class="logo-web">WEB</span>STUDIO</p>
+          
+          <p class="logo-web-main-footer"><span class="logo-web">WEB</span>STUDIO</p>
           <p class="text-footer">
             Increase the flow of customers and sales for your business with
             digital marketing & growth solutions.
