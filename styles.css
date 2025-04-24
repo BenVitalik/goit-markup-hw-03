@@ -85,7 +85,7 @@ color: #4d5ae5;
     line-height: 1.16667;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #2e2f42;
+    color: #000000;
 }
 .text-studio:hover{
     color: #404BBF;
@@ -335,11 +335,11 @@ background-color: #2E2F42;
 padding-top: 102px;
 padding-bottom: 107px;
 }
-.logo-web-main{
- color: #ffffff;
-}
 .text-footer{
  max-width: 264px;
  color: #ffffff;
+}
+.logo-web-main-footer{
+    color: #ffffff;
 }
 /* =============== /BODY =============== */
