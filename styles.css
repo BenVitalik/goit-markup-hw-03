@@ -1,0 +1,345 @@
+/* =============== MAIN =============== */
+ol,
+ul{
+    list-style-type: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+h1
+h2
+h3
+h4
+h5
+h6
+p{
+ margin-top: 0;
+ margin-bottom: 0;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+button {
+    cursor: pointer;
+}
+body{
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 0.02em;
+    color: #2e2f42
+}
+header{
+    line-height: 1.5; 
+}
+
+/* =============== /MAIN =============== */
+/* =============== HEDER =============== */
+.list-description{
+ margin-bottom: 127px;
+}
+.main-text-wb{
+background-color: #2E2F42;
+padding-left: 478px;
+padding-left: 478px;
+
+}
+.main-conteiner{
+display: flex;
+ max-width: 1158px;
+ align-items: center;
+ justify-content: space-between;
+ margin-left: auto;
+ margin-right: auto;
+}
+.navigation{
+ display: flex;
+}
+.list-main-navigation{
+display: flex;
+margin-top: 20px;
+padding-left: 79px;
+column-gap: 42px;
+font-weight: 700;
+}
+
+.contacts{
+font-style: normal;
+display: flex;
+padding-left: 334px;
+column-gap: 42px;
+}
+.logo-web{
+font-family: "Raleway", sans-serif;
+font-weight: 700;
+font-size: 18px;
+line-height: 1.16667;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #4d5ae5;
+}
+.logo-web-main{
+    margin-top: 20px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.16667;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #2e2f42;
+}
+.text-studio:hover{
+    color: #404BBF;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    line-height: 1.5;
+}
+.text-portfolio:hover{
+    color: #404BBF;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    
+    line-height: 1.5;
+}
+.text-contacts:hover{
+    color: #404BBF;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    
+    line-height: 1.5;
+}
+.text-address:hover{
+    color: #404BBF;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    
+    line-height: 1.5;
+}
+.text-address-telephone:hover{
+    color: #404BBF;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.address-fix{
+ display: flex;
+}
+/* =============== /HEDER =============== */
+/* =============== BODY =============== */
+/* =============== MAIN HUD WB =============== */
+.conteiner-main-hud{
+ background-color: #2E2F42;
+ padding-top: 197px;
+ padding-bottom: 197px;
+ padding-left: 476px;
+ padding-right: 476px;
+ text-align: center;
+}
+.main-text-wb{
+text-align: center;
+ color: #ffffff;
+ max-height: 120px;
+ max-width: 481px;
+ font-size: 40px;
+ margin-left: auto;
+ margin-right: auto;
+ margin-bottom: 60px;
+ padding-left: 0;
+}
+.main-button-wb {
+    border-radius: 8px;
+    padding: 16px 32px;
+    width: 169px;
+    height: 56px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
+    background: #4d5ae5;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    outline: none;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.main-button-wb:active {
+    color: #404BBF;
+}
+/* =============== /MAIN HUD WB =============== */
+/* =============== description =============== */
+.list-description{
+display: flex;
+justify-content: center;
+margin-left: 156px;
+margin-right: 163px;
+margin-top: 100px;
+column-gap: 32.55px;
+}
+.text-strategy{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    line-height: 1.2;
+    color: #2e2f42;
+}
+.main-text-strategy{
+    font-weight: 400;
+    line-height: 1.5;
+    color: #434455;
+    width: 264px;
+    font-size: 400;
+}
+.text-punctuality{
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+.main-text-punctuality{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    width: 264px;
+    font-size: 400;
+}
+.text-diligence{
+    font-weight: 500;
+    line-height: 1.2;
+}
+.main-text-diligence{
+    font-weight: 400;
+    line-height: 1.5;
+    color: #434455;
+    width: 264px;
+    font-size: 400;
+}
+.text-technologies{
+    font-weight: 500;
+    line-height: 1.2;
+}
+.main-text-technologies{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #434455;
+    width: 264px;
+    font-size: 400;
+}
+/* =============== /description =============== */
+/* =============== Our Team =============== */
+.foto{
+background-color: #F4F4FD;
+    max-width: 100%;
+}
+.list-Our-Team {
+    display: flex;
+    margin-bottom: 120px;
+    margin-top: 80px;
+    justify-content: center;
+    column-gap: 24px;
+    padding-bottom: 120px;
+}
+.main-text-team{
+font-size: 28px;
+display: flex;
+padding-top: 126px;
+align-items: flex-start;
+margin-bottom: 0;
+justify-content: center;
+}
+/* =============== /Our Team =============== */
+.conteiner{
+max-width: 1158px;
+padding-left: 16px;
+padding-right: 16px;
+margin-left: auto;
+margin-right: auto;
+margin-top: 10px;
+margin-bottom: 120px;
+}
+.list-Our-Portfolio{
+display: flex;
+flex-wrap: wrap;
+gap: 20px;
+row-gap: 48px;
+padding-left: 2px;
+padding-right: 2px;
+}
+.main-text-portfolio{
+margin-bottom: 80px;
+font-weight: 700;
+line-height: 1.11111;
+text-align: center;
+}
+.system-banking-app{
+font-weight: 500;
+line-height: 1.2;
+}
+.text-app{
+font-weight: 400;
+line-height: 1.5;
+color: #434455;
+}
+.system-payment{
+font-weight: 500;
+line-height: 1.2;
+}
+.text-payment{
+font-weight: 400;
+line-height: 1.5;
+color: #434455;
+}
+.system-meditation-app{
+font-weight: 500;
+line-height: 1.2;
+}
+.system-app{
+font-weight: 400;
+line-height: 1.5;
+color: #434455;
+}
+.system-taxi-service{
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+}
+.text-taxi-service{
+font-weight: 400;
+line-height: 1.5;
+color: #434455;
+}
+.system-screen-illustrations{
+font-weight: 500;
+line-height: 1.2;
+}
+.text-screen-illustrations{
+font-weight: 400;
+line-height: 1.5;
+color: #434455;
+}
+.system-online-courses{
+font-weight: 500;
+line-height: 1.2;
+}
+.text-marketing{
+font-weight: 400;
+line-height: 1.5;
+color: #434455;
+}
+.text-footer{
+font-weight: 400;
+line-height: 1.5;
+color: #111111;
+}
+.conteiner-footer{
+padding-left: 156px;
+background-color: #2E2F42;
+padding-top: 102px;
+padding-bottom: 107px;
+}
+.logo-web-main{
+ color: #ffffff;
+}
+.text-footer{
+ max-width: 264px;
+ color: #ffffff;
+}
+/* =============== /BODY =============== */
